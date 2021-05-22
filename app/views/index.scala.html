@@ -1,0 +1,10 @@
+@(message: String)(implicit loggedIn: User, request: RequestHeader, messages:  play.api.i18n.Messages, assets: AssetsFinder)
+
+@main(message) {
+    <div>
+        <div>
+            <h2>@message</h2>
+            @notifications()
+        </div>
+    </div>
+}

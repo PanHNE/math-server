@@ -1,0 +1,101 @@
+# Autoryzacja
+auth.credentials.invalid=Invalid login or password
+auth.forget.password=Zapomniałeś hasła?
+auth.remember.me=Zapamiętaj mnie
+auth.requestResetPassword.success=Na {0}, wysłaliśmy maila z instrukcją zmiany hasła
+
+# Informacje zwrotne
+utils.label.actions=Akcje
+utils.alert.error=Błąd!
+utils.alert.failure=Problem!
+utils.alert.success=Sukces!
+utils.alert.warning=Uwaga!
+utils.choose=Wybierz
+utils.error.payment=Błąd zmiany statusu zlecenia!
+utils.false=Nie
+utils.true=Tak
+
+# Przyciski
+button.actions=Akcje
+button.add=Dodaj
+button.back=Powrót
+button.cancel=Anuluj
+button.change=Zmień
+button.create=Utwórz
+button.delete=Usuń
+button.edit=Edytuj
+button.false=Nie
+button.next=Następna
+button.preview=Podgląd
+button.send=Wyślij
+button.save=Zapisz
+button.save.change=Zapisz hasło
+button.true=Tak
+button.play=Zagraj
+button.previous.site=Poprzednia
+button.next.site=Następna
+
+# Strony
+page.main=Strona główna
+
+# Użytkownik
+user=Użytkownik
+user.company.name=Nazwa
+user.company.address=Adres
+user.company.nip=NIP
+user.company.nip.length=10 cyfr
+user.create=Utwórz użytkownika
+user.create.exists=Użytkownik z mailem: {0} istnieje
+user.create.success=Utworzono nowego użytkownika
+user.details=Profil użytkownika
+user.edit=Edycja użytkownika
+user.edit.save=Zapisz zmiany
+user.edit.success=Profil został zaktualizowany
+user.email=Mail
+user.forgot.password.title=Zmiana hasła
+user.forgot.password.email=Wyślij link do zmiany hasła
+user.forgot.password.send=Wyślij
+user.login.title=Logowanie
+user.logout=Wyloguj
+user.name=Imię
+user.not.found=Użytkownik nie istnieje
+user.organization=Ogranizacja
+user.password=Hasło
+user.phoneNumber=Numer telefonu
+user.profile=Użytkownik
+user.reEnter.password=Powtórz hasło
+user.register.success=Konto zostało utworzone.
+user.reset.password.save=Zmień hasło
+user.reset.password.failure=Coś poszło nie tak, za kilka minut ponów próbę zminy hasła.
+user.reset.password.success=Hasło zmienione
+user.reset.password.title=Zmiana hasła
+user.roleType=Rola
+user.sign.in=Zaloguj się
+user.sign.in.question=Masz już konto?
+user.sign.up.title=Tworzenie użytkownika
+user.sign.up=Zarejestruj się!
+user.sign.up.question=Nie masz jeszcze konta?
+user.surname=Nazwisko
+user.unauthorized=Błędne dane logowania
+user.roleType=Rola
+
+# Stronnicowanie
+pagination.displaying=Wyświetla wpisy {0} do {1} z {2}
+pagination.next=Następne
+pagination.noData=Brak wpisów!
+pagination.pageSize.back=wpisów
+pagination.pageSize.front=Wyświetla
+pagination.previous=Poprzednie
+pagination.search=Szukaj:
+pagination.type.back=wpisy
+pagination.type.front=Wyświetl
+
+# Typu użytkownika
+ADMIN=Administrator
+CLIENT=Klient
+SPECIALIST=Specjalista
+
+# Typy kont
+PERSON=Osoba prywatna
+COMPANY=Firma
+
