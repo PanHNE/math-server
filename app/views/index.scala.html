@@ -1,10 +1,26 @@
 @(message: String)(implicit loggedIn: User, request: RequestHeader, messages:  play.api.i18n.Messages, assets: AssetsFinder)
 
+<link rel="stylesheet" media="screen" href="@assets.path("stylesheets/index.css")">
+
 @main(message) {
-    <div>
+    <section class="up">
         <div>
             <h2>@message</h2>
+
             @notifications()
         </div>
-    </div>
+    </section>
+
+    <section class="main">
+        <div class="first">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+
+        <div class="second">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+    </section>
+
+    <section class="down">
+    </section>
 }

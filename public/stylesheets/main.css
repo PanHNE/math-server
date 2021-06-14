@@ -1,0 +1,21 @@
+.row {
+    display: inline-block;
+}
+
+/**
+    Main elements
+ */
+header {
+    width: 90vw;
+    height: 5vh;
+    padding: 2vh 5vw;
+}
+
+main {
+    height: 87vh;
+}
+
+footer {
+    height: 4vh;
+    padding: 0 2vh;
+}
